@@ -36,7 +36,7 @@ class usuario_controller extends Controller{
                 echo view('Views\register.php', ['validation' => $this->validator]);
                 echo view('Views\footer.php');
         
-        }elseif($this->request->getVar('email') == "mmmauricio37@gmail.com"){
+        }elseif($this->request->getVar('email') == "luciazalazar@gmail.com"){
             $formModel->save([
                 'nombre' => $this->request->getVar('nombre'),
                 'apellido'=> $this->request->getVar('apellido'),
