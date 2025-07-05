@@ -1,0 +1,100 @@
+INFO - 2025-06-18 19:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-18 19:42:37 --> mysqli_sql_exception: Table 'tatu.historial_ventas' doesn't exist in C:\xamppp\htdocs\Proyecto\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Proyecto\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamppp\htdocs\Proyecto\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamppp\htdocs\Proyecto\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamppp\htdocs\Proyecto\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\Proyecto\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Proyecto\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\Proyecto\app\Controllers\VentasAdminController.php(55): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\Proyecto\system\CodeIgniter.php(941): App\Controllers\VentasAdminController->indexUser()
+#8 C:\xamppp\htdocs\Proyecto\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentasAdminController))
+#9 C:\xamppp\htdocs\Proyecto\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamppp\htdocs\Proyecto\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2025-06-18 19:42:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'tatu.historial_ventas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `historial_ventas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `historial_ventas`.`id_cliente`
+WHERE `id_cliente` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\VentasAdminController.php(55): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\VentasAdminController->indexUser()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentasAdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-18 19:42:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'tatu.historial_ventas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `historial_ventas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `historial_ventas`.`id_cliente`
+WHERE `id_cliente` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `historial_ventas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `historial_ventas`.`id_cliente`
+WHERE `id_cliente` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `historial_ventas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `historial_ventas`.`id_cliente`
+WHERE `id_cliente` IS NULL', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\VentasAdminController.php(55): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\VentasAdminController->indexUser()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentasAdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-06-18 19:42:37 --> [Caused by] mysqli_sql_exception: Table 'tatu.historial_ventas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `historial_ventas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `historial_ventas`.`id_cliente`
+WHERE `id_cliente` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `historial_ventas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `historial_ventas`.`id_cliente`
+WHERE `id_cliente` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `historial_ventas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `historial_ventas`.`id_cliente`
+WHERE `id_cliente` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `historial_ventas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `historial_ventas`.`id_cliente`
+WHERE `id_cliente` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\VentasAdminController.php(55): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\VentasAdminController->indexUser()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentasAdminController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-06-18 19:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-18 19:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

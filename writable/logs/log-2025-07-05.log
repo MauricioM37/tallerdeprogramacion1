@@ -1,0 +1,158 @@
+INFO - 2025-07-05 00:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 00:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 00:45:26 --> ParseError: syntax error, unexpected '$routes' (T_VARIABLE)
+in APPPATH\Config\Routes.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-05 00:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 00:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 00:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 00:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 00:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 00:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 00:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 00:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 00:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 00:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 01:15:50 --> Error: Class 'App\Models\DetalleEnviosModel' not found
+in APPPATH\Controllers\EnviosAdminController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnviosAdminController->guardarVenta()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnviosAdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-05 01:18:27 --> Error: Class 'App\Models\DetalleEnviosModel' not found
+in APPPATH\Controllers\EnviosAdminController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnviosAdminController->guardarVenta()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnviosAdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-05 01:22:32 --> Error: Class 'App\Models\DetalleEnviosModel' not found
+in APPPATH\Controllers\EnviosAdminController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnviosAdminController->guardarVenta()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnviosAdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-05 01:24:17 --> Error: Class 'App\Models\DetalleEnviosModel' not found
+in APPPATH\Controllers\EnviosAdminController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EnviosAdminController->guardarVenta()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EnviosAdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-05 01:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 01:31:07 --> Error: Class 'App\Models\ConsultaModel' not found
+in APPPATH\Controllers\ConsultaController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ConsultaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-05 01:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 01:33:24 --> Error: Class 'App\Models\ConsultaModel' not found
+in APPPATH\Controllers\ConsultaController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ConsultaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-05 01:34:23 --> Error: Class 'App\Models\ConsultaModel' not found
+in APPPATH\Controllers\ConsultaController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ConsultaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-05 01:36:33 --> Error: Class 'App\Models\ConsultaModel' not found
+in APPPATH\Controllers\ConsultaController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ConsultaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-05 01:39:38 --> Error: Class 'App\Models\ConsultaModel' not found
+in APPPATH\Controllers\ConsultaController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ConsultaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-05 01:45:03 --> Error: Class 'App\Models\ConsultaModel' not found
+in APPPATH\Controllers\ConsultaController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ConsultaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-05 01:45:58 --> Error: Class 'App\Models\ConsultaModel' not found
+in APPPATH\Controllers\ConsultaController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ConsultaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-07-05 01:46:01 --> Error: Class 'App\Models\ConsultaModel' not found
+in APPPATH\Controllers\ConsultaController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ConsultaController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-05 01:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 01:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 01:51:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Views\usuarios\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\usuarios\\index.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Views\\usuarios\\index.php', [], true)
+ 3 APPPATH\Controllers\UsuariosController.php(15): view('Views\\usuarios\\index.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuariosController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-05 01:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 02:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 02:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 02:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 02:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 02:02:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Views\usuarios\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\usuarios\\index.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Views\\usuarios\\index.php', [], true)
+ 3 APPPATH\Controllers\UsuariosController.php(15): view('Views\\usuarios\\index.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuariosController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-05 02:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 02:03:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Views\usuarios\create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\usuarios\\create.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Views\\usuarios\\create.php', [], true)
+ 3 APPPATH\Controllers\UsuariosController.php(22): view('Views\\usuarios\\create.php')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UsuariosController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-07-05 02:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 02:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-05 02:04:05 --> ErrorException: Undefined variable: productos
+in APPPATH\Views\admin.php on line 34.
+ 1 APPPATH\Views\admin.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productos', 'C:\\xamppp\\htdocs\\Proyecto\\app\\Views\\admin.php', 34, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xamppp\\htdocs\\Proyecto\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Views\\admin.php', [], true)
+ 5 APPPATH\Controllers\TiposController.php(26): view('Views\\admin.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TiposController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

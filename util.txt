@@ -1,0 +1,4 @@
+log = $result = $this->request->getVar('email') == "mmmmauricio37@gmail.com";
+echo "<script>console.log('Resultado:', " . ($result ? 'true' : 'false') . ");</script>";
+// Detén la ejecución para ver el resultado (solo en desarrollo)
+die();
